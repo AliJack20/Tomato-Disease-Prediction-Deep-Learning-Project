@@ -26,8 +26,8 @@ class_names = dataset.class_names
 
 #Visualisation of an image from the tf dataset
 
-#for image_batch, label_batch in dataset.take(1):
- #   plt.imshow(image_batch[0].numpy().astype("uint8"))
+for image_batch, label_batch in dataset.take(1):
+    plt.imshow(image_batch[0].numpy().astype("uint8"))
   #  plt.show()
 
 
@@ -70,3 +70,5 @@ train_dataset, val_dataset, test_dataset = get_partitioned_datasets(dataset)
 train_dataset = train_dataset.cache().shuffle(1000).prefetch(buffer_size =tf.data.AUTOTUNE)
 val_dataset = val_dataset.cache().shuffle(1000).prefetch(buffer_size =tf.data.AUTOTUNE)
 test_dataset = test_dataset.cache().shuffle(1000).prefetch(buffer_size =tf.data.AUTOTUNE)
+
+
