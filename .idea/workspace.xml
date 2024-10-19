@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f86369c-de44-4dc0-afb9-0713e9030fc7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/training/tomato_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/training/tomato_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/training/training_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/training/training_model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +20,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
